@@ -12,6 +12,7 @@ libs/
 *.wallet
 *.tmp
 *.dat
+*.DS_Store
 checkpoints
 checkpoints-testnet.txt
 checkpoints.txt
