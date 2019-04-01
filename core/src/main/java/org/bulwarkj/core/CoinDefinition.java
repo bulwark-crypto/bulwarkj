@@ -79,10 +79,10 @@ public class CoinDefinition {
     //
     // BULWARK 0.12
     //
-    public static final int PROTOCOL_VERSION = 70811;          //version.h PROTOCOL_VERSION
-    public static final int MIN_PROTOCOL_VERSION = 70811;        //version.h MIN_PROTO_VERSION
+    public static final int PROTOCOL_VERSION = 70870;          //version.h PROTOCOL_VERSION
+    public static final int MIN_PROTOCOL_VERSION = 70870;        //version.h MIN_PROTO_VERSION
 
-    public static final int BLOCK_CURRENTVERSION = 2;   //CBlock::CURRENT_VERSION
+    public static final int BLOCK_CURRENTVERSION = 4;   //CBlock::CURRENT_VERSION
     public static final int MAX_BLOCK_SIZE = 1 * 1000 * 1000;
 
 
@@ -117,10 +117,12 @@ public class CoinDefinition {
 
     //net.cpp strDNSSeed
     static public String[] dnsSeeds = new String[] {
-            "bwkseed.mempool.pw",
-            "bulwark-dns-seed04.ssus.tech",
-            "bwkseed.mempool.pw",
-            "bulwark-dns-seed04.ssus.tech"
+            "bwkseed1.bulwarkcrypto.com",
+            "bwkseed2.bulwarkcrypto.com",
+            "bwkseed3.bulwarkcrypto.com",
+            "bwkseed4.bulwarkcrypto.com",
+            "bwkseed5.bulwarkcrypto.com",
+            "bwkseed6.bulwarkcrypto.com"
     };
 
     public static int minBroadcastConnections = 3;   //0 for default; we need more peers.
